@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.example.control.MainActivity">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_command"
+        android:icon="@drawable/ic_baseline_textsms_24"
+
+        android:title="@string/command" />
+    <item
+        android:id="@+id/nav_ssh"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="@string/ssh" />
+</menu>
